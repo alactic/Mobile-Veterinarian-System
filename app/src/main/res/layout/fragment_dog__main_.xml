@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elvis.petapps.Dog_Side_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/puppy_care"
+            android:background="#9DD7E5"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/puppy_icon"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PUPPY CARE"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/dog_diet"
+            android:background="#9DD7E5"
+            android:layout_marginBottom="20dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/dog_icon"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIET AND NUTRITION"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/dog_preventive"
+            android:layout_marginBottom="20dp"
+            android:background="#9DD7E5">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/care_icon"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PREVENTIVE CARE"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/dog_health"
+            android:layout_marginBottom="20dp"
+            android:background="#9DD7E5">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/dog_german"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COMMON HEALTH CONDITIONS"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/dog_breed"
+            android:layout_marginBottom="20dp"
+            android:background="#9DD7E5">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dog_bulldog"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breeds of Dog"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/dog_diagnose"
+            android:layout_marginBottom="20dp"
+            android:background="#9DD7E5">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dog_bulldog"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disgnose "
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

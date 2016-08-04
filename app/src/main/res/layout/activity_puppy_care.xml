@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#DEF0F5"
+    android:orientation="vertical"
+    tools:context="com.example.elvis.petapps.Puppy_care">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/puppy"
+            android:layout_gravity="center"
+            />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/puppy_intro"
+        android:textColor="#000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/button_feed_puppy">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                 android:text="How Do I Feed a Newborn Puppy"
+                android:background="#9DD7E5"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/feed_puppy"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/button_puppy_eat"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="How Often Should a Puppy Eat"
+                android:background="#9DD7E5"
+                android:layout_marginTop="5dp"
+
+                />
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puppy_eat"
+              android:textColor="#000"
+            />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_puppy_weight"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="How Much Should a Newborn Puppy Weigh"
+                android:background="#9DD7E5"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/puppy_weight"
+                android:textColor="#000"
+                />
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

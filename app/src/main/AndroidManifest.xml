@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elvis.petapps" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dog_Activity"
+            android:label="@string/title_activity_dog_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_Activity"
+            android:label="@string/title_activity_cat_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SQL_Helper"
+            android:label="@string/title_activity_sql__helper"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Dog_health"
+            android:label="@string/title_activity_dog_health"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Puppy_care"
+            android:label="@string/title_activity_puppy_care"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Diet_Activity"
+            android:label="@string/title_activity_diet_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Dog_Preventive_Activity"
+            android:label="@string/title_activity_dog__preventive_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Dog_health_Activity"
+            android:label="@string/title_activity_dog_health_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Health_Condition_Activity"
+            android:label="@string/title_activity_health__condition_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Kitten_Activity"
+            android:label="@string/title_activity_kitten_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_diet_Activity"
+            android:label="@string/title_activity_cat_diet_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_preventive_Activity"
+            android:label="@string/title_activity_cat_preventive_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_prevent_detail"
+            android:label="@string/title_activity_cat_prevent_detail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_Health_Activity"
+            android:label="@string/title_activity_cat__health_"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_Health_Detail"
+            android:label="@string/title_activity_cat__health__detail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Dog_breed"
+            android:label="@string/title_activity_dog_breed"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Breed_detail"
+            android:label="@string/title_activity_breed_detail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_breed"
+            android:label="@string/title_activity_cat_breed"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_splash"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Intro"
+            android:label="@string/title_activity_intro"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Dog_Diagnose"
+            android:label="@string/title_activity_dog__diagnose"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_diagnose"
+            android:label="@string/title_activity_cat_diagnose"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cat_diagnosis"
+            android:label="@string/title_activity_cat_diagnosis"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Navigate"
+            android:label="@string/title_activity_navigate"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elvis.petapps.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

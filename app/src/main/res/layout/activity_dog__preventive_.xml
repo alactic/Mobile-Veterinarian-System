@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#DEF0F5"
+    android:orientation="vertical"
+    tools:context="com.example.elvis.petapps.Dog_Preventive_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/care"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:text="@string/prevent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prevent"
+            android:textColor="#000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/button_prevent_eyes">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="How to Care for Your Dog's Eyes"
+                android:background="#9DD7E5"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prevent_eyes"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/button_prevent_ear"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="How to Care for Your Dog's Ears"
+                android:background="#9DD7E5"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prevent_ear"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_prevent_teeth"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Steps to Dog Dental Health"
+                android:background="#9DD7E5"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prevent_teeth"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_prevent_breath"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Bad Breath Causes and Solutions"
+                android:background="#9DD7E5"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prevent_breath"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_prevent_toanails"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="How to Care for Your Dog's Toenails"
+                android:background="#9DD7E5"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prevent_toanails"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

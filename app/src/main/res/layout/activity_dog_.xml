@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#DEF0F5"
+    tools:context="com.example.elvis.petapps.Dog_Activity">
+
+   <fragment
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       class="com.example.elvis.petapps.Dog_Main_Fragment"
+       android:id="@+id/dog_main_fragment"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.example.elvis.petapps.Dog_Side_Fragment"
+        android:id="@+id/dog_side_fragment"/>
+</LinearLayout>

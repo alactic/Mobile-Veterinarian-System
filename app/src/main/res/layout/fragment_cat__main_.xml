@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elvis.petapps.Cat_Main_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/kitten_care"
+            android:background="#9DD7E5"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/cat_care"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KITTEN CARE"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linear_cat_diet"
+            android:background="#9DD7E5"
+            android:layout_marginBottom="20dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/cat_diet"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIET AND NUTRITION"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/cat_preventive"
+            android:layout_marginBottom="20dp"
+            android:background="#9DD7E5">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/cat_prevent"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PREVENTIVE CARE"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/cat_health"
+            android:layout_marginBottom="20dp"
+            android:background="#9DD7E5">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/cat_condition"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COMMON HEALTH CONDITIONS"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/cat_breed"
+            android:layout_marginBottom="20dp"
+            android:background="#9DD7E5">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/cat_britishsshorthair"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breeds of Cat"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/cat_diagnose"
+            android:layout_marginBottom="20dp"
+            android:background="#9DD7E5">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/cat_britishsshorthair"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diagnose"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
